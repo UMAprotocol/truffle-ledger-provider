@@ -24,11 +24,12 @@
   },
   "homepage": "https://github.com/hussy-io/truffle-ledger-provider#readme",
   "dependencies": {
+    "@ledgerhq/hw-transport-node-hid": "^4.22.0",
+    "@ledgerhq/hw-transport-u2f": "^4.21.0",
+    "@ledgerhq/web3-subprovider": "^4.20.0",
     "ethereumjs-wallet": "^0.6.0",
-    "web3": "^0.18.2",
-    "web3-provider-engine": "^14.0.5",
-    "@ledgerhq/hw-transport-node-hid": "^4.7.6",
-    "@ledgerhq/web3-subprovider": "^4.7.3"
+    "web3": "^0.20.6",
+    "web3-provider-engine": "^14.0.6"
   },
   "devDependencies": {
     "@atomix/eslint-config": "^6.4.0"
