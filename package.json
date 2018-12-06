@@ -28,8 +28,7 @@
     "@ledgerhq/hw-transport-u2f": "^4.21.0",
     "@ledgerhq/web3-subprovider": "^4.20.0",
     "ethereumjs-wallet": "^0.6.0",
-    "web3": "^0.20.6",
-    "web3-provider-engine": "^14.0.6"
+    "web3-provider-engine": "^14.1.0"
   },
   "devDependencies": {
     "@atomix/eslint-config": "^6.4.0"

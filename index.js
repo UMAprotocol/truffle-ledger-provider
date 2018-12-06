@@ -1,4 +1,4 @@
-const Web3 = require('web3')
+// const Web3 = require('web3')
 const TransportHID = require('@ledgerhq/hw-transport-node-hid').default
 // const TransportU2F = require("@ledgerhq/hw-transport-u2f").default
 const ProviderEngine = require('web3-provider-engine')
