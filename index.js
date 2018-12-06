@@ -12,18 +12,31 @@ const createLedgerSubprovider = require('@ledgerhq/web3-subprovider').default
 
 class LedgerProvider {
   constructor(options, url) {
+    const debug = false
     const getTransport = () => TransportHID.create()
     // const getTransport = () => TransportU2F.create()
     const ledger = createLedgerSubprovider(getTransport, options)
+    if (debug) console.log('1')
 
     this.engine = new ProviderEngine()
+    if (debug) console.log('2')
+
     this.engine.addProvider(new FiltersSubprovider())
+    if (debug) console.log('3')
+
     this.engine.addProvider(new NonceSubprovider())
+    if (debug) console.log('4')
+
     this.engine.addProvider(ledger)
+    if (debug) console.log('5')
+
     // this.engine.addProvider(new ProviderSubprovider(new Web3.providers.HttpProvider(url)))
     this.engine.addProvider(new RpcSubprovider({rpcUrl: url}))
+    if (debug) console.log('6')
+
     // this.engine.addProvider(new InfuraSubprovider({network: 'kovan'}))
     this.engine.start()
+    if (debug) console.log('7')
   }
 
   sendAsync(...args) {

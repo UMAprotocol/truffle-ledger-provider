@@ -1,6 +1,6 @@
 {
   "name": "truffle-ledger-provider",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Ledger Wallet-enabled Web3 provider",
   "main": "index.js",
   "scripts": {
@@ -28,9 +28,8 @@
     "@ledgerhq/hw-transport-u2f": "^4.21.0",
     "@ledgerhq/web3-subprovider": "^4.20.0",
     "ethereumjs-wallet": "^0.6.0",
-    "web3-provider-engine": "^14.1.0"
+    "web3-provider-engine": "git+https://github.com/cgewecke/provider-engine.git#web3-one"
   },
   "devDependencies": {
-    "@atomix/eslint-config": "^6.4.0"
   }
 }

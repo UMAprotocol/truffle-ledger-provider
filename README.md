@@ -1,3 +1,6 @@
+# Fork
+This is a fork of https://github.com/hussy-io/truffle-ledger-provider that actually works.  Now works with web3 1.0 and truffle 5!  Probably won't work for older web3 versions, but commit https://github.com/deconet/truffle-ledger-provider/commit/b184bcb55dfaf4bf372490af5268f31190d4b136 may work with older web3 versions.
+
 # truffle-ledger-provider
 
 Ledger Wallet-enabled Web3 provider. Use it to sign transactions with Ledger Nano S or Ledger Blue.
