@@ -24,12 +24,11 @@
   },
   "homepage": "https://github.com/hussy-io/truffle-ledger-provider#readme",
   "dependencies": {
-    "@ledgerhq/hw-transport-node-hid": "^4.22.0",
-    "@ledgerhq/hw-transport-u2f": "^4.21.0",
-    "@ledgerhq/web3-subprovider": "^4.20.0",
+    "@ledgerhq/hw-transport-node-hid": "^4.24.0",
+    "@ledgerhq/hw-transport-u2f": "^4.31.0",
+    "@ledgerhq/web3-subprovider": "/Users/chris/Documents/WorkStuff/Deconet/Blockchain/ledgerjs/packages/web3-subprovider",
     "ethereumjs-wallet": "^0.6.0",
-    "web3-provider-engine": "git+https://github.com/cgewecke/provider-engine.git#web3-one"
+    "web3-provider-engine": "/Users/chris/Documents/WorkStuff/Deconet/Blockchain/provider-engine"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
