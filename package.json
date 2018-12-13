@@ -1,5 +1,5 @@
 {
-  "name": "truffle-ledger-provider",
+  "name": "@deconet/truffle-ledger-provider",
   "version": "0.0.4",
   "description": "Ledger Wallet-enabled Web3 provider",
   "main": "index.js",
@@ -17,6 +17,9 @@
     "wallet",
     "provider"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Peter Tulala <peter@hussy.io>",
   "license": "MIT",
   "bugs": {
@@ -25,10 +28,10 @@
   "homepage": "https://github.com/hussy-io/truffle-ledger-provider#readme",
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
+    "@deconet/web3-provider-engine": "^14.0.6",
+    "@deconet/web3-subprovider": "^4.32.0",
     "@ledgerhq/hw-transport-node-hid": "^4.32.0",
-    "@ledgerhq/web3-subprovider": "/Users/chris/Documents/WorkStuff/Deconet/Blockchain/ledgerjs/packages/web3-subprovider",
-    "ethereumjs-wallet": "^0.6.0",
-    "web3-provider-engine": "/Users/chris/Documents/WorkStuff/Deconet/Blockchain/provider-engine"
+    "ethereumjs-wallet": "^0.6.0"
   },
   "devDependencies": {}
 }

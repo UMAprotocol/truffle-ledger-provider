@@ -10,6 +10,45 @@
     core-js "^2.5.7"
     regenerator-runtime "^0.11.1"
 
+"@deconet/web3-provider-engine@^14.0.6":
+  version "14.0.6"
+  resolved "https://registry.yarnpkg.com/@deconet/web3-provider-engine/-/web3-provider-engine-14.0.6.tgz#8c022c11829f4c26c49885443ac07b1469e19c78"
+  integrity sha512-ThCt+Ptzkqcn/HyhdOww+e9O6LzGJYUi13jOznFGyOBlZHzkL1CPQ9UkpYsTj1d5NKWUU9fXFIREvB3VPK3Pxw==
+  dependencies:
+    async "^2.5.0"
+    backoff "^2.5.0"
+    clone "^2.0.0"
+    cross-fetch "^2.1.0"
+    eth-block-tracker "^3.0.0"
+    eth-json-rpc-infura "^3.1.0"
+    eth-sig-util "^1.4.2"
+    ethereumjs-block "^1.2.2"
+    ethereumjs-tx "^1.2.0"
+    ethereumjs-util "^5.1.5"
+    ethereumjs-vm "^2.3.4"
+    json-rpc-error "^2.0.0"
+    json-stable-stringify "^1.0.1"
+    promise-to-callback "^1.0.0"
+    readable-stream "^2.2.9"
+    request "^2.85.0"
+    semaphore "^1.0.3"
+    tape "^4.4.0"
+    ws "^5.1.1"
+    xhr "^2.2.0"
+    xtend "^4.0.1"
+
+"@deconet/web3-subprovider@^4.32.0":
+  version "4.32.0"
+  resolved "https://registry.yarnpkg.com/@deconet/web3-subprovider/-/web3-subprovider-4.32.0.tgz#983c391e1c65f62cefd7a2161141f119680d141c"
+  integrity sha512-tSXOw4JA5H7Mn02Zc+k+Ytqd8y0faRAV1GcQi6tnvs5oJzHr0TJZrNzeLt3kdH3jJOBPIz8kpFyFMzqTxZ7tFA==
+  dependencies:
+    "@ledgerhq/hw-app-eth" "^4.32.0"
+    "@ledgerhq/hw-transport" "^4.32.0"
+    "@ledgerhq/hw-transport-u2f" "^4.32.0"
+    ethereumjs-tx "^1.3.7"
+    strip-hex-prefix "^1.0.0"
+    web3-provider-engine "https://github.com/deconet/provider-engine.git#web3-one"
+
 "@ledgerhq/hw-app-eth@^4.32.0":
   version "4.32.0"
   resolved "https://registry.yarnpkg.com/@ledgerhq/hw-app-eth/-/hw-app-eth-4.32.0.tgz#7d43ca2c7952f1fb726e02c3b4485be10af481a2"
@@ -41,16 +80,6 @@
   integrity sha512-Wgsk9UHC4RShqYoDeIEeKgHZOvNCtB0WWIG0xqlVPzS+IcKDkIxtXQw7hTA7GQSuDuGeauVtlbTQ5yat6+2/BA==
   dependencies:
     events "^3.0.0"
-
-"@ledgerhq/web3-subprovider@file:../ledgerjs/packages/web3-subprovider":
-  version "4.32.0"
-  dependencies:
-    "@ledgerhq/hw-app-eth" "^4.32.0"
-    "@ledgerhq/hw-transport" "^4.32.0"
-    "@ledgerhq/hw-transport-u2f" "^4.32.0"
-    ethereumjs-tx "^1.3.7"
-    strip-hex-prefix "^1.0.0"
-    web3-provider-engine "file:../provider-engine"
 
 abbrev@1:
   version "1.1.1"
@@ -133,7 +162,7 @@ async-eventemitter@^0.2.2:
   dependencies:
     async "^2.4.0"
 
-"async-eventemitter@github:ahultgren/async-eventemitter#fa06e39e56786ba541c180061dbf2c0a5bbf951c":
+async-eventemitter@ahultgren/async-eventemitter#fa06e39e56786ba541c180061dbf2c0a5bbf951c:
   version "0.2.3"
   resolved "https://codeload.github.com/ahultgren/async-eventemitter/tar.gz/fa06e39e56786ba541c180061dbf2c0a5bbf951c"
   dependencies:
@@ -3117,8 +3146,9 @@ web3-provider-engine@^13.3.2:
     xhr "^2.2.0"
     xtend "^4.0.1"
 
-"web3-provider-engine@file:../provider-engine":
+"web3-provider-engine@https://github.com/deconet/provider-engine.git#web3-one":
   version "14.0.6"
+  resolved "https://github.com/deconet/provider-engine.git#4f54b3bf8227b30028f9bb53bee99212f5a49f9a"
   dependencies:
     async "^2.5.0"
     backoff "^2.5.0"
