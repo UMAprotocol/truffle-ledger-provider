@@ -1,3 +1,4 @@
+require("@babel/polyfill");
 // const Web3 = require('web3')
 const TransportHID = require('@ledgerhq/hw-transport-node-hid').default
 // const TransportU2F = require("@ledgerhq/hw-transport-u2f").default

@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/hussy-io/truffle-ledger-provider#readme",
   "dependencies": {
-    "@ledgerhq/hw-transport-node-hid": "^4.24.0",
-    "@ledgerhq/hw-transport-u2f": "^4.31.0",
+    "@babel/polyfill": "^7.0.0",
+    "@ledgerhq/hw-transport-node-hid": "^4.32.0",
     "@ledgerhq/web3-subprovider": "/Users/chris/Documents/WorkStuff/Deconet/Blockchain/ledgerjs/packages/web3-subprovider",
     "ethereumjs-wallet": "^0.6.0",
     "web3-provider-engine": "/Users/chris/Documents/WorkStuff/Deconet/Blockchain/provider-engine"
