@@ -1,6 +1,6 @@
 {
   "name": "@deconet/truffle-ledger-provider",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Ledger Wallet-enabled Web3 provider",
   "main": "index.js",
   "scripts": {

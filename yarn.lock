@@ -38,16 +38,16 @@
     xtend "^4.0.1"
 
 "@deconet/web3-subprovider@^4.32.0":
-  version "4.32.0"
-  resolved "https://registry.yarnpkg.com/@deconet/web3-subprovider/-/web3-subprovider-4.32.0.tgz#983c391e1c65f62cefd7a2161141f119680d141c"
-  integrity sha512-tSXOw4JA5H7Mn02Zc+k+Ytqd8y0faRAV1GcQi6tnvs5oJzHr0TJZrNzeLt3kdH3jJOBPIz8kpFyFMzqTxZ7tFA==
+  version "4.32.1"
+  resolved "https://registry.yarnpkg.com/@deconet/web3-subprovider/-/web3-subprovider-4.32.1.tgz#af8673bd1cacd79a75443016eda655d0311e233a"
+  integrity sha512-IIkdhamVeH06AcRPwwyKnKDLGNCwqTUsxFspmTfdbUj1TTAuJunVnNtRs6cJSKCVXDt6O/xxMjbFu4T3hsaGEw==
   dependencies:
+    "@deconet/web3-provider-engine" "^14.0.6"
     "@ledgerhq/hw-app-eth" "^4.32.0"
     "@ledgerhq/hw-transport" "^4.32.0"
     "@ledgerhq/hw-transport-u2f" "^4.32.0"
     ethereumjs-tx "^1.3.7"
     strip-hex-prefix "^1.0.0"
-    web3-provider-engine "https://github.com/deconet/provider-engine.git#web3-one"
 
 "@ledgerhq/hw-app-eth@^4.32.0":
   version "4.32.0"
@@ -57,9 +57,9 @@
     "@ledgerhq/hw-transport" "^4.32.0"
 
 "@ledgerhq/hw-transport-node-hid@^4.32.0":
-  version "4.32.0"
-  resolved "https://registry.yarnpkg.com/@ledgerhq/hw-transport-node-hid/-/hw-transport-node-hid-4.32.0.tgz#75fec81c44e9f8fbe0f918080e2b70e99de2a346"
-  integrity sha512-uZO+52TBxaYVhGIULHbhvyZWx+uLjvflDwfLicQR1eYxbYACB6xLXwq4sz9gL5He966t637Zx9iPsLi87rtqvQ==
+  version "4.33.3"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/hw-transport-node-hid/-/hw-transport-node-hid-4.33.3.tgz#5e96dca2be0a23d80814303f262398087b208a6a"
+  integrity sha512-hmNAm7k385RJXY38hVUpzYgGgyk9QjScD3erNlFCTO8FnnxmEJCFUmVhWkv4sTwufuUJSpXL3ZXXNZ44qLMJpg==
   dependencies:
     "@ledgerhq/hw-transport" "^4.32.0"
     lodash "^4.17.11"
@@ -106,9 +106,9 @@ aes-js@^3.1.1:
   integrity sha512-e5pEa2kBnBOgR4Y/p20pskXI74UEz7de8ZGVo58asOtvSVG5YAbJeELPZxOmt+Bnz3rX753YKhfIn4X4l1PPRQ==
 
 ajv@^6.5.5:
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.6.1.tgz#6360f5ed0d80f232cc2b294c362d5dc2e538dd61"
-  integrity sha512-ZoJjft5B+EJBjUyu9C9Hc0OZyPZSSlOF+plzouTrg6UlA8f+e/n8NIgBFG/9tppJtpPWfthHakK7juJdNDODww==
+  version "6.6.2"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.6.2.tgz#caceccf474bf3fc3ce3b147443711a24063cc30d"
+  integrity sha512-FBHEW6Jf5TB9MGBgUUA9XHkTbjXYfAUjY43ACMfmdMRHniyoMHjHjzD50OK8LGDWQwp4rWEsIq5kEqq7rvIM1g==
   dependencies:
     fast-deep-equal "^2.0.1"
     fast-json-stable-stringify "^2.0.0"
@@ -162,7 +162,7 @@ async-eventemitter@^0.2.2:
   dependencies:
     async "^2.4.0"
 
-async-eventemitter@ahultgren/async-eventemitter#fa06e39e56786ba541c180061dbf2c0a5bbf951c:
+"async-eventemitter@github:ahultgren/async-eventemitter#fa06e39e56786ba541c180061dbf2c0a5bbf951c":
   version "0.2.3"
   resolved "https://codeload.github.com/ahultgren/async-eventemitter/tar.gz/fa06e39e56786ba541c180061dbf2c0a5bbf951c"
   dependencies:
@@ -863,9 +863,9 @@ camelcase@^3.0.0:
   integrity sha1-MvxLn82vhF/N9+c7uXysImHwqwo=
 
 caniuse-lite@^1.0.30000844:
-  version "1.0.30000918"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000918.tgz#6288f79da3c5c8b45e502f47ad8f3eb91f1379a9"
-  integrity sha512-CAZ9QXGViBvhHnmIHhsTPSWFBujDaelKnUj7wwImbyQRxmXynYqKGi3UaZTSz9MoVh+1EVxOS/DFIkrJYgR3aw==
+  version "1.0.30000923"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000923.tgz#148f9bda508024b5ce957b463ae2e8302b451bb2"
+  integrity sha512-j5ur7eeluOFjjPUkydtXP4KFAsmH3XaQNch5tvWSO+dLHYt5PE+VgJZLWtbVOodfWij6m6zas28T4gB/cLYq1w==
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -965,9 +965,9 @@ convert-source-map@^1.5.1:
     safe-buffer "~5.1.1"
 
 core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.7:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.0.tgz#1e30793e9ee5782b307e37ffa22da0eacddd84d4"
-  integrity sha512-kLRC6ncVpuEW/1kwrOXYX6KQASCVtrh1gQr/UiaVgFlf9WE5Vp+lNe5+h3LuMr5PAucWnnEXwH0nQHRH/gpGtw==
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.1.tgz#87416ae817de957a3f249b3b5ca475d4aaed6042"
+  integrity sha512-L72mmmEayPJBejKIWe2pYtGis5r0tQ5NaJekdhyXgeMQTpJoBsH0NL4ElY2LfSoV15xeQWKQ+XTTOZdyero5Xg==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -1105,9 +1105,9 @@ ecc-jsbn@~0.1.1:
     safer-buffer "^2.1.0"
 
 electron-to-chromium@^1.3.47:
-  version "1.3.90"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.90.tgz#b4c51b8303beff18f2b74817402bf4898e09558a"
-  integrity sha512-IjJZKRhFbWSOX1w0sdIXgp4CMRguu6UYcTckyFF/Gjtemsu/25eZ+RXwFlV+UWcIueHyQA1UnRJxocTpH5NdGA==
+  version "1.3.95"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.95.tgz#79fac438813ca7f3db182a525c2ab432934f6484"
+  integrity sha512-0JZEDKOQAE05EO/4rk3vLAE+PYFI9OLCVLAS4QAq1y+Bb2y1N6MyQJz62ynzHN/y0Ka/nO5jVJcahbCEdfiXLQ==
 
 elliptic@^6.2.3:
   version "6.4.1"
@@ -2166,9 +2166,9 @@ ms@2.0.0:
   integrity sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
 
 nan@^2.0.8, nan@^2.10.0, nan@^2.2.1, nan@^2.8.0:
-  version "2.11.1"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.11.1.tgz#90e22bccb8ca57ea4cd37cc83d3819b52eea6766"
-  integrity sha512-iji6k87OSXa0CcrLl9z+ZiYSuR2o+c0bGuNmXdrhTQTakxytAFsC56SArGYoiHlJlFoHSnvmhpceZJaXkVuOtA==
+  version "2.12.1"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.12.1.tgz#7b1aa193e9aa86057e3c7bbd0ac448e770925552"
+  integrity sha512-JY7V6lRkStKcKTvHO5NVSQRv+RV+FIL5pvDoLiAtSL9pKlC5x9PKQcZDsq7m4FO4d57mkhC6Z+QhAh3Jdk5JFw==
 
 napi-build-utils@^1.0.1:
   version "1.0.1"
@@ -2467,9 +2467,9 @@ prr@~1.0.1:
   integrity sha1-0/wRS6BplaRexok/SEzrHXj19HY=
 
 psl@^1.1.24:
-  version "1.1.29"
-  resolved "https://registry.yarnpkg.com/psl/-/psl-1.1.29.tgz#60f580d360170bb722a797cc704411e6da850c67"
-  integrity sha512-AeUmQ0oLN02flVHXWh9sSJF7mcdFq0ppid/JkErufc3hGIV/AMa8Fo9VgDo/cT2jFdOWoFvHp90qqBH54W+gjQ==
+  version "1.1.31"
+  resolved "https://registry.yarnpkg.com/psl/-/psl-1.1.31.tgz#e9aa86d0101b5b105cbe93ac6b784cd547276184"
+  integrity sha512-/6pt4+C+T+wZUieKR620OpzN/LlnNKuWjy1iFLQ/UG35JqHlR/89MP1d96dUfkf6Dne3TuLQzOYEYshJ+Hx8mw==
 
 pump@^1.0.0:
   version "1.0.3"
@@ -2680,9 +2680,9 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     inherits "^2.0.1"
 
 rlp@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/rlp/-/rlp-2.1.0.tgz#e4f9886d5a982174f314543831e36e1a658460f9"
-  integrity sha512-93U7IKH5j7nmXFVg19MeNBGzQW5uXW1pmCuKY8veeKIhYTE32C2d0mOegfiIAfXcHOKJjjPlJisn8iHDF5AezA==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/rlp/-/rlp-2.2.0.tgz#b10686964e99c67f9b256a303868e2d39bb7660d"
+  integrity sha512-rGDIOeKPYj82rgml9Fpi28dU9n2JYyqTXaBeCLTT9rk9+Ry+/l7oDgVuHcKYDSJ6WZfa2mD16fRWPpNzk0kTHw==
   dependencies:
     safe-buffer "^5.1.1"
 
@@ -2719,9 +2719,9 @@ sax@^1.2.4:
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
 scrypt.js@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/scrypt.js/-/scrypt.js-0.2.0.tgz#af8d1465b71e9990110bedfc593b9479e03a8ada"
-  integrity sha1-r40UZbcemZARC+38WTuUeeA6ito=
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/scrypt.js/-/scrypt.js-0.2.1.tgz#cc3f751933d6bac7a4bedf5301d7596e8146cdcd"
+  integrity sha512-XMoqxwABdotuW+l+qACmJ/h0kVSCgMPZXpbncA/zyBO90z/NnDISzVw+xJ4tUY+X/Hh0EFT269OYHm26VCPgmA==
   dependencies:
     scrypt "^6.0.2"
     scryptsy "^1.2.1"
@@ -3143,32 +3143,6 @@ web3-provider-engine@^13.3.2:
     semaphore "^1.0.3"
     solc "^0.4.2"
     tape "^4.4.0"
-    xhr "^2.2.0"
-    xtend "^4.0.1"
-
-"web3-provider-engine@https://github.com/deconet/provider-engine.git#web3-one":
-  version "14.0.6"
-  resolved "https://github.com/deconet/provider-engine.git#4f54b3bf8227b30028f9bb53bee99212f5a49f9a"
-  dependencies:
-    async "^2.5.0"
-    backoff "^2.5.0"
-    clone "^2.0.0"
-    cross-fetch "^2.1.0"
-    eth-block-tracker "^3.0.0"
-    eth-json-rpc-infura "^3.1.0"
-    eth-sig-util "^1.4.2"
-    ethereumjs-block "^1.2.2"
-    ethereumjs-tx "^1.2.0"
-    ethereumjs-util "^5.1.5"
-    ethereumjs-vm "^2.3.4"
-    json-rpc-error "^2.0.0"
-    json-stable-stringify "^1.0.1"
-    promise-to-callback "^1.0.0"
-    readable-stream "^2.2.9"
-    request "^2.85.0"
-    semaphore "^1.0.3"
-    tape "^4.4.0"
-    ws "^5.1.1"
     xhr "^2.2.0"
     xtend "^4.0.1"
 
