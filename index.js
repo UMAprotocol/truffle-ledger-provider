@@ -2,13 +2,13 @@ require("@babel/polyfill");
 // const Web3 = require('web3')
 const TransportHID = require('@ledgerhq/hw-transport-node-hid').default
 // const TransportU2F = require("@ledgerhq/hw-transport-u2f").default
-const ProviderEngine = require('@deconet/web3-provider-engine')
-const ProviderSubprovider = require('@deconet/web3-provider-engine/subproviders/provider.js')
-const RpcSubprovider = require('@deconet/web3-provider-engine/subproviders/rpc.js')
-const InfuraSubprovider = require('@deconet/web3-provider-engine/subproviders/infura.js')
-const FiltersSubprovider = require('@deconet/web3-provider-engine/subproviders/filters.js')
-const NonceSubprovider = require('@deconet/web3-provider-engine/subproviders/nonce-tracker.js')
-const createLedgerSubprovider = require('@deconet/web3-subprovider').default
+const ProviderEngine = require('@umaprotocol/web3-provider-engine')
+const ProviderSubprovider = require('@umaprotocol/web3-provider-engine/subproviders/provider.js')
+const RpcSubprovider = require('@umaprotocol/web3-provider-engine/subproviders/rpc.js')
+const InfuraSubprovider = require('@umaprotocol/web3-provider-engine/subproviders/infura.js')
+const FiltersSubprovider = require('@umaprotocol/web3-provider-engine/subproviders/filters.js')
+const NonceSubprovider = require('@umaprotocol/web3-provider-engine/subproviders/nonce-tracker.js')
+const createLedgerSubprovider = require('@umaprotocol/web3-subprovider').default
 
 
 class LedgerProvider {
