@@ -26,12 +26,13 @@
     "url": "https://github.com/UMAprotocol/truffle-ledger-provider/issues"
   },
   "homepage": "https://github.com/UMAprotocol/truffle-ledger-provider#readme",
-  "dependencies": {
+  "optionalDependencies": {
     "@babel/polyfill": "^7.0.0",
     "@ledgerhq/hw-transport-node-hid": "^4.32.0",
-    "ethereumjs-wallet": "^0.6.0",
     "@umaprotocol/web3-provider-engine": "^15.0.4",
-    "@umaprotocol/web3-subprovider": "^4.74.3"
+    "@umaprotocol/web3-subprovider": "^4.74.3",
+    "ethereumjs-wallet": "^0.6.0"
   },
+  "dependencies": {},
   "devDependencies": {}
 }
