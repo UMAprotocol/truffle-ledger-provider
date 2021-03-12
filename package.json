@@ -1,6 +1,6 @@
 {
   "name": "@umaprotocol/truffle-ledger-provider",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Ledger Wallet-enabled Web3 provider",
   "main": "index.js",
   "scripts": {
